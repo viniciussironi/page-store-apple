@@ -1,0 +1,57 @@
+.store {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1450px;
+  height: 250px;
+}
+
+.left {
+  width: 640px;
+  padding: 80px 0 64px;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h1 span {
+  color: #6E6E73;
+}
+
+.right {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  padding: 90px 0 54px;
+}
+
+.quest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.quest img {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.quest p {
+  font-weight: bold;
+}
+
+.quest a {
+  text-decoration: none;
+  color: #2770D0;
+}
+
+.quest a:hover {
+  text-decoration: underline;
+  color: #2770D0;
+}

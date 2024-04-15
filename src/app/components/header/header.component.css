@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  height: 44px;
+  padding: 0 10px;
+  width: 996px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1D1D1F;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+#buttons {
+  font-size: 20px;
+}
