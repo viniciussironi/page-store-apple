@@ -4,11 +4,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { NewsComponent } from './components/news/news.component';
 import { HelpComponent } from './components/help/help.component';
+import { MotivosComponent } from './components/motivos/motivos.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, CardsComponent, NewsComponent, HelpComponent],
+  imports: [HeaderComponent, CardsComponent, NewsComponent, HelpComponent, MotivosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
