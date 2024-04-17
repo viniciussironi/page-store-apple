@@ -1,0 +1,106 @@
+section {
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.title h2 {
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+
+.acessorios {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.title span {
+  font-size: 28px;
+  color: #6E6E73;
+}
+
+.card, .card img {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.card {
+  transition: all .3s cubic-bezier(0,0,.5,1);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.intern-card div {
+  position: relative;
+  padding: 50px 30px;
+  height: 0;
+  top: -504px;
+  background: transparent;
+}
+
+.intern-card h3, .intern-card  p {
+  background: transparent;
+  color: #1D1D1F;
+}
+
+.intern-card h3 {
+  font-size: 28px;
+}
+
+.intern-card p {
+  font-size: 17px;
+}
+
+.product {
+  background-color: #fff;
+  width: 313px;
+  height: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  transition: all .3s cubic-bezier(0,0,.5,1);
+  cursor: pointer;
+}
+
+.product:hover {
+  transform: scale(1.01);
+}
+
+.image {
+  text-align: center;
+  background: transparent;
+}
+
+.image img {
+  margin-top: 41px;
+  width: 230px;
+  height: 230px;
+}
+
+.info, .info h3, .info span, .info p {
+  background: transparent;
+  text-align: start;
+}
+
+.info {
+  padding-top: 38px;
+}
+
+.novo-produto {
+  font-size: 12px;
+  color: #B64400;
+}
+
+.info h3 {
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+.info p {
+  font-size: 14px;
+  padding-top: 27px;
+}

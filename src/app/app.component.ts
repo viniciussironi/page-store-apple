@@ -5,11 +5,13 @@ import { CardsComponent } from './components/cards/cards.component';
 import { NewsComponent } from './components/news/news.component';
 import { HelpComponent } from './components/help/help.component';
 import { MotivosComponent } from './components/motivos/motivos.component';
+import { AcessoriosComponent } from './components/loja/acessorios/acessorios.component';
+import { AirpodsComponent } from './components/loja/airpods/airpods.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, CardsComponent, NewsComponent, HelpComponent, MotivosComponent],
+  imports: [HeaderComponent, CardsComponent, NewsComponent, HelpComponent, MotivosComponent, AcessoriosComponent, AirpodsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
