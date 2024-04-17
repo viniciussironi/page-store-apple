@@ -1,0 +1,65 @@
+section {
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.title h2 {
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+
+.title span {
+  font-size: 28px;
+  color: #6E6E73;
+}
+
+.servico {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.interno, .interno img {
+  width: 480px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.interno {
+  transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.interno:hover {
+  transform: scale(1.01);
+}
+
+.interno div {
+  position: relative;
+  padding: 30px;
+  height: 0;
+  top: -504px;
+  background: transparent;
+}
+
+span, h3 {
+  background: transparent;
+  width: 350px;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6E6E73;
+}
+
+h3 {
+  font-size: 27px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.white span, .white h3 {
+  color: #fff;
+}
