@@ -1,0 +1,119 @@
+footer {
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.footer {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.notas {
+  padding: 0px 0 11px;
+  border-bottom: 1px solid #0000008F;
+}
+
+.notas p {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #0000008F;
+}
+
+.notas p a {
+  color: #0000008F;
+}
+
+.central {
+  margin: 17px 0;
+}
+
+.central div {
+  color: #0000008F;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;;
+}
+
+.central div img {
+  height: 16px;
+  width: 17px;
+}
+
+.central div span, .central div p  {
+  font-size: 12px;
+  color: #000000B8;
+}
+
+.mapa-site p {
+  color: #1D1D1F;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.mapa-site a {
+  color: #000000B8;
+  text-decoration: none;
+  margin-bottom: 10px;
+  width: 177px;
+}
+
+.mapa-site a:hover {
+  text-decoration: underline;
+}
+
+.mapa-site {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.interno {
+  width: 379px;
+}
+
+.interno div {
+  display: flex;
+  flex-direction: column;
+}
+
+.final {
+  padding: 37px 0 11px;
+}
+
+.p-final {
+  font-size: 12px;
+  color: #0000008F;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #0000008F;
+  margin-bottom: 16px;
+}
+
+.p-final a {
+  font-size: 12px;
+  color: #0066CC;
+}
+
+.um {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.um p {
+  font-size: 12px;
+  color: #0000008F;
+}
+.dois a {
+  color: #000000B8;
+  font-size: 12px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.dois a:hover {
+  text-decoration: underline;
+}

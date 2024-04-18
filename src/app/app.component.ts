@@ -9,11 +9,23 @@ import { AcessoriosComponent } from './components/loja/acessorios/acessorios.com
 import { AirpodsComponent } from './components/loja/airpods/airpods.component';
 import { ServicosComponent } from './components/loja/servicos/servicos.component';
 import { EspeciaisComponent } from './components/loja/especiais/especiais.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, CardsComponent, NewsComponent, HelpComponent, MotivosComponent, AcessoriosComponent, AirpodsComponent, ServicosComponent, EspeciaisComponent],
+  imports: [
+    HeaderComponent,
+    CardsComponent,
+    NewsComponent,
+    HelpComponent,
+    MotivosComponent,
+    AcessoriosComponent,
+    AirpodsComponent,
+    ServicosComponent,
+    EspeciaisComponent,
+    FooterComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

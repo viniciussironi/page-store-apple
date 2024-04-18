@@ -49,8 +49,11 @@ img {
 
 .white {
   height: 400px;
-  color: #fff;
   background: transparent;
+}
+
+.white span, .white h3, .white p {
+  color: #fff;
 }
 
 span, h3, p {
