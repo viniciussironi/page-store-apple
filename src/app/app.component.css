@@ -1,10 +1,13 @@
+main {
+  max-width: 84vw;
+  margin: 0 auto;
+}
+
 .store {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1450px;
   height: 250px;
 }
 
@@ -53,5 +56,16 @@ h1 span {
 
 .quest a:hover {
   text-decoration: underline;
+  color: #2770D0;
+}
+
+.special {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.special span {
+  font-size: 9px;
   color: #2770D0;
 }

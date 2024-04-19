@@ -24,7 +24,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AirpodsComponent,
     ServicosComponent,
     EspeciaisComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
