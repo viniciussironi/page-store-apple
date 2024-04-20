@@ -1,12 +1,10 @@
 * {
   background: transparent;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
 }
 
 .title h2 {
   font-size: 28px;
-  margin-bottom: 26px;
+  margin-bottom: 14px;
 }
 
 .title span {
@@ -21,6 +19,8 @@
   gap: 20px;
   height: 520px;
   overflow: hidden;
+  scroll-behavior: smooth;
+  padding: 10px 0px;
 }
 
 [data-core-scroller] {
@@ -56,6 +56,8 @@
 
 .card {
   transition: all .3s cubic-bezier(0,0,.5,1);
+  cursor: pointer;
+  box-shadow: 2px 4px 12px #00000014;
 }
 
 .card:hover {
@@ -96,12 +98,12 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   cursor: pointer;
   background-color: #cecece6d;
+  display: none;
 }
 
 .left {
@@ -116,4 +118,8 @@
 .buttons-scroll span {
   text-align: center;
   font-weight: 700;
+}
+
+.scroller-cards:hover .buttons-scroll {
+  display: block;
 }

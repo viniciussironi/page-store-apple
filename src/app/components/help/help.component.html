@@ -3,51 +3,73 @@
     <h2>A ajuda está aqui. <span>Quando e como você precisar.</span></h2>
   </div>
 
-  <div class="help">
-    <div class="bloco">
-      <img src="assets/help/1.jpeg">
-      <div class="intern">
-        <div class="white">
-          <span>ESPECIALISTA DA APPLE</span>
-          <h3>Compre com a ajuda de um especialista na Apple Store ou online.</h3>
-        </div>
-      </div>
-    </div>
+  <div class="relative">
+    <div data-core-scroller class="scroller-cards" #scrollerCards>
 
-    <div class="bloco">
-      <img src="assets/help/2.jpeg">
-      <div class="intern">
-        <div>
-          <span>VEM PARA O IPHONE</span>
-          <h3>Mudar para o iphone é muito fácil.</h3>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/help/1.jpeg">
+          </div>
+          <div class="text-card">
+            <span>ESPECIALISTA DA APPLE</span>
+            <h3>Compre com a ajuda de um especialista na Apple Store ou online.</h3>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="bloco">
-      <img src="assets/help/3.jpeg">
-      <div class="intern">
-        <div >
-          <span>TODAY AT APPLE</span>
-          <h3>Participe das sessões gratuitas na Apple Store.</h3>
-          <p>Saiba como aproveitar ao máximo seus aparelhos Apple.</p>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/help/2.jpeg">
+          </div>
+          <div class="text-card">
+            <span>VEM PARA O IPHONE</span>
+            <h3>Mudar para o iphone é muito fácil.</h3>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="bloco-menor">
-      <div class="menor">
-        <img src="assets/help/4.jpeg">
-        <div class="menor-intern">
-          <h3>Configure seu novo aparelho em uma Sessão Personalizada Online gratuita.</h3>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/help/3.jpeg">
+          </div>
+          <div class="text-card">
+            <span>TODAY AT APPLE</span>
+            <h3>Participe das sessões gratuitas na Apple Store.</h3>
+            <p>Saiba como aproveitar ao máximo seus aparelhos Apple.</p>
+          </div>
         </div>
       </div>
-      <div class="menor">
-        <img src="assets/help/5.jpeg">
-        <div class="menor-intern">
-          <h3 class="ultimo">Receba assistência técnica e suporte no Genius Bar.</h3>
+
+      <div class="scroll-card" id="last">
+        <div class="small-cards">
+          <div class="card small">
+            <div class="image">
+              <img width="480px" height="500px" src="assets/help/4.jpeg">
+            </div>
+            <div class="text-card">
+              <h3>Configure seu novo aparelho em uma Sessão Personalizada Online gratuita.</h3>
+            </div>
+          </div>
+
+          <div class="card small">
+            <div class="image">
+              <img src="assets/help/5.jpeg">
+            </div>
+            <div class="text-card">
+              <h3 class="last">Receba assistência técnica e suporte no Genius Bar.</h3>
+            </div>
+          </div>
         </div>
       </div>
+      <button class="buttons-scroll right" (click)="scroll(600, scrollerCards)">
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
+      </button>
+      <button class="buttons-scroll left" (click)="scroll(-600, scrollerCards)">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+      </button>
     </div>
   </div>
 </section>

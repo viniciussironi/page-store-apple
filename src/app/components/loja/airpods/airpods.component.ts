@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AirpodsComponent {
 
+  scroll(x: number, element: HTMLElement) {
+    element.scrollLeft += x;
+  }
 }

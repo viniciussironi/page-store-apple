@@ -11,8 +11,6 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 })
 export class NewsComponent {
 
-  constructor(private viewportScroller: ViewportScroller) {}
-
   scroll(x: number, element: HTMLElement) {
     element.scrollLeft += x;
   }

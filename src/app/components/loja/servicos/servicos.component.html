@@ -3,32 +3,61 @@
     <h2>É melhor com a Apple. <span>Faça ainda mais com os produtos e serviços Apple.</span></h2>
   </div>
 
-  <div class="servico">
-    <div class="interno">
-      <img src="assets/store/serviços/1.jpeg">
-      <div class="white">
-        <span>APPLE TV+</span>
-        <h3>Ganhe três meses de Apple TV+ na compra de um aparelho Apple°.</h3>
+  <div class="relative">
+    <div data-core-scroller class="scroller-cards" #scrollerCards>
+
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/store/serviços/1.jpeg">
+          </div>
+          <div class="text-card white">
+            <span>APPLE TV+</span>
+            <h3>Ganhe três meses de Apple TV+ na compra de um aparelho Apple°.</h3>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="interno">
-      <img src="assets/store/serviços/2.jpeg">
-      <div>
-        <h3>Cinco serviços Apple. Uma só assinatura.</h3>
+
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/store/serviços/2.jpeg">
+          </div>
+          <div class="text-card">
+            <h3>Cinco serviços Apple. Uma só assinatura.</h3>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="interno">
-      <img src="assets/store/serviços/3.jpeg">
-      <div>
-        <h3>Descubra todas as maneiras de usar o Apple Pay.</h3>
+
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/store/serviços/3.jpeg">
+          </div>
+          <div class="text-card">
+            <h3>Descubra todas as maneiras de usar o Apple Pay.</h3>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="interno">
-      <img src="assets/store/serviços/4.jpeg">
-      <div>
-        <span>CASA</span>
-        <h3>Veja como um app pode controlar toda a sua casa.</h3>
+
+      <div class="scroll-card" id="last">
+        <div class="card">
+          <div class="image">
+            <img width="480px" height="500px" src="assets/store/serviços/4.jpeg">
+          </div>
+          <div class="text-card">
+            <span>CASA</span>
+            <h3>Veja como um app pode controlar toda a sua casa.</h3>
+          </div>
+        </div>
       </div>
+
+      <button class="buttons-scroll right" (click)="scroll(600, scrollerCards)">
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
+      </button>
+      <button class="buttons-scroll left" (click)="scroll(-600, scrollerCards)">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+      </button>
     </div>
   </div>
 </section>

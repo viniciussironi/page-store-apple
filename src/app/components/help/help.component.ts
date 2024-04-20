@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './help.component.css'
 })
 export class HelpComponent {
-
+  scroll(x: number, element: HTMLElement) {
+    element.scrollLeft += x;
+  }
 }

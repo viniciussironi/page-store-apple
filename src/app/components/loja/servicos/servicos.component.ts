@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class ServicosComponent {
 
+  scroll(x: number, element: HTMLElement) {
+    element.scrollLeft += x;
+  }
 }
