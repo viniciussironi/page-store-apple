@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
@@ -9,5 +10,11 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
   styleUrl: './news.component.css'
 })
 export class NewsComponent {
+
+  constructor(private viewportScroller: ViewportScroller) {}
+
+  scroll(x: number, element: HTMLElement) {
+    element.scrollLeft += x;
+  }
 }
 

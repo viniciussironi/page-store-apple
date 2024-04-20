@@ -2,11 +2,16 @@
   <div class="title">
     <h2>As novidades. <span>Veja o que acabou de chegar.</span></h2>
   </div>
-    <div class="news">
-      <div class="bloco">
-        <img src="assets/news/1.jpeg">
-        <div class="intern">
-          <div class="white">
+
+  <div class="relative">
+    <div data-core-scroller class="scroller-cards" #scrollerCards>
+
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img width="400px" height="500px"  src="assets/news/1.jpeg">
+          </div>
+          <div class="text-card white">
             <span>IPHONE 15 PRO</span>
             <h3>Titânio.</h3>
             <p>A partir de R$ 9.299</p>
@@ -14,10 +19,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/2.jpeg">
-        <div class="intern">
-          <div >
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/2.jpeg">
+          </div>
+          <div class="text-card">
             <span>MACBOOK AIR</span>
             <h3>Feito para acompanhar você.</h3>
             <p>A partir de R$ 10.999</p>
@@ -25,10 +32,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/3.jpeg">
-        <div class="intern">
-          <div class="white">
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/3.jpeg">
+          </div>
+          <div class="text-card white">
             <span>APLLE WATCH SERIES 9</span>
             <h3>Brilha mais em tudo.</h3>
             <p>A partir de R$ 4.999</p>
@@ -36,10 +45,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/4.jpeg">
-        <div class="intern">
-          <div>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/4.jpeg">
+          </div>
+          <div class="text-card">
             <span>IPAD</span>
             <h3>Inspira. Desenha. Diverte.</h3>
             <p>A partir de R$ 4.999</p>
@@ -47,10 +58,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/5.jpeg">
-        <div class="intern">
-          <div>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/5.jpeg">
+          </div>
+          <div class="text-card">
             <span>IPHONE 15</span>
             <h3>Uauforia.</h3>
             <p>A partir de R$ 7.299</p>
@@ -58,10 +71,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/6.jpeg">
-        <div class="intern">
-          <div>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/6.jpeg">
+          </div>
+          <div class="text-card">
             <span>MACBOOK PRO</span>
             <h3>Arrepia. Até na beleza.</h3>
             <p>A partir de R$ 18.499</p>
@@ -69,10 +84,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/7.jpeg">
-        <div class="intern">
-          <div>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/7.jpeg">
+          </div>
+          <div class="text-card">
             <span>APLLE WATCH ULTRA 2</span>
             <h3>Sua próxima aventura.</h3>
             <p>A partir de R$ 9.699</p>
@@ -80,10 +97,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/8.jpeg">
-        <div class="intern">
-          <div class="white">
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/8.jpeg">
+          </div>
+          <div class="text-card white">
             <span>IPAD PRO</span>
             <h3>Com a potência do M2.</h3>
             <p>A partir de R$ 9.799</p>
@@ -91,10 +110,12 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/9.jpeg">
-        <div class="intern">
-          <div>
+      <div class="scroll-card">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/9.jpeg">
+          </div>
+          <div class="text-card">
             <span>APLLE WATCH SE</span>
             <h3>Para amar cada segundo.</h3>
             <p>A partir de R$ 3.299</p>
@@ -102,17 +123,25 @@
         </div>
       </div>
 
-      <div class="bloco">
-        <img src="assets/news/10.jpeg">
-        <div class="intern">
-          <div>
+      <div class="scroll-card" id="last">
+        <div class="card">
+          <div class="image">
+            <img src="assets/news/10.jpeg">
+          </div>
+          <div class="text-card">
             <span>NOVO</span>
             <h3>Novas cores. Seu pulso vai ser tendência.</h3>
             <p>Descubra os novos modelos e cores de pulseiras.</p>
           </div>
         </div>
       </div>
-      <button class="carousel-btn right">Próximo</button>
-      <button class="carousel-btn left">Anterior</button>
+
+      <button class="buttons-scroll right" (click)="scroll(400, scrollerCards)">
+        <span class="material-symbols-outlined">arrow_forward_ios</span>
+      </button>
+      <button class="buttons-scroll left" (click)="scroll(-400, scrollerCards)">
+        <span class="material-symbols-outlined">arrow_back_ios</span>
+      </button>
     </div>
+  </div>
 </section>
