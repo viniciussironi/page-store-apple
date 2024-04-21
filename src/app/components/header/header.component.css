@@ -5,6 +5,7 @@ header {
 }
 
 nav {
+  position: relative;
   height: 44px;
   padding: 0 10px;
   width: 996px;
@@ -27,4 +28,103 @@ a {
 
 #buttons {
   font-size: 20px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fafafc;
+  display: none;
+  transition: transform 3s linear;
+  backdrop-filter: blur(2px);
+}
+
+.intern {
+  background-color: #fafafc;
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 22px 84px;
+}
+
+.left {
+  background-color: #fafafc;
+  padding-right: 88px;
+}
+
+.center, .right {
+  background-color: #fafafc;
+  padding-right: 44px;
+}
+
+
+.intern h3 {
+  background-color: #fafafc;
+  font-size: 24px;
+  color: #333336;
+}
+
+.intern p  {
+  background-color: #fafafc;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333336;
+  padding: 7px 11px;
+  cursor: pointer;
+}
+
+.intern span {
+  background-color: #fafafc;
+  font-size: 12px;
+  color: #6e6e66;
+  padding: 7px 11px;
+  cursor: pointer;
+}
+
+.left span, .left h3, .left p {
+  background-color: #fafafc;
+  padding: 9px 11px 7px;
+  cursor: pointer;
+}
+
+.store:hover .navbar {
+  display: block;
+}
+
+.mac:hover .navbar {
+  display: block;
+}
+
+.ipad:hover .navbar {
+  display: block;
+}
+
+.iphone:hover .navbar {
+  display: block;
+}
+
+.watch:hover .navbar {
+  display: block;
+}
+
+.airpods:hover .navbar {
+  display: block;
+}
+
+.tv:hover .navbar {
+  display: block;
+}
+
+.entertainment:hover .navbar {
+  display: block;
+}
+
+.accessories:hover .navbar {
+  display: block;
+}
+
+.suport:hover .navbar {
+  display: block;
 }
