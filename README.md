@@ -21,10 +21,10 @@ Objetivo do projeto foi recriar a homepage da [loja da Apple](https://www.apple.
 
 # Recursos usados
 
--- Angular
--- HTML
--- CSS
--- Google Icons
+- Angular
+- HTML
+- CSS
+- Google Icons
 
 # Autor
 
