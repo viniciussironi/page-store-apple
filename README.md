@@ -1,27 +1,35 @@
-# HomepageApple
+# Clone da Loja da Apple
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+![GitHub Licence](https://img.shields.io/github/license/viniciussironi/page-store-apple?link=https%3A%2F%2Fgithub.com%2Fviniciussironi%2Fpage-store-apple%2Fblob%2Fmain%2FLICENSE)
 
-## Development server
+# Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto foi criado para colocar em prática meu conhecimentos em HTML e CSS. 
+Objetivo do projeto foi recriar a homepage da [loja da Apple](https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid__pgrid_1288627665724090_pntwk_o_pchan__pexid_%7Bextensionid%7D_&cid=aos-br-kwgo-brand--slid---product-), usando o Angular
 
-## Code scaffolding
+# Imagens do projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![1](https://github.com/viniciussironi/page-store-apple/assets/115051529/1294deb6-8907-43e0-80e3-68504603ea53)
 
-## Build
+![2](https://github.com/viniciussironi/page-store-apple/assets/115051529/b1d53f43-de98-4a27-b441-3d090c772831)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![3](https://github.com/viniciussironi/page-store-apple/assets/115051529/9f8c5404-f447-4f7d-b496-b4371b2fab18)
 
-## Running unit tests
+![4](https://github.com/viniciussironi/page-store-apple/assets/115051529/4526eea2-ddd3-416c-a93a-da250bef4ea5)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![5](https://github.com/viniciussironi/page-store-apple/assets/115051529/abd72f46-d599-4dfc-ab92-a61ccf3e080c)
 
-## Running end-to-end tests
+# Recursos usados
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+-- Angular
+-- HTML
+-- CSS
+-- Google Icons
 
-## Further help
+# Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Vinicius Luan Amancio Sironi
+
+Linkedin: https://www.linkedin.com/in/vinicius-sironi/
+
+e-mail: viniciussironi@gmail.com
