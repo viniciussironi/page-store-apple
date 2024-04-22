@@ -3,6 +3,11 @@ main {
   margin: 0 auto;
 }
 
+main.blur {
+  filter: blur(25px);
+  opacity: 0.5;
+}
+
 .store {
   display: flex;
   flex-direction: row;

@@ -2,6 +2,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.white, .white a, .white div, .white img {
+  background-color: #fafafc;
 }
 
 nav {
@@ -13,6 +18,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 
 img {
   width: 20px;
@@ -36,8 +42,8 @@ a {
   right: 0;
   background-color: #fafafc;
   display: none;
-  transition: transform 3s linear;
-  backdrop-filter: blur(2px);
+  z-index: 2;
+  transition: transform 0.3s ease-in-out;
 }
 
 .intern {
@@ -89,12 +95,15 @@ a {
   cursor: pointer;
 }
 
+
 .store:hover .navbar {
   display: block;
+
 }
 
 .mac:hover .navbar {
   display: block;
+
 }
 
 .ipad:hover .navbar {
