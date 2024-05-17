@@ -2,7 +2,7 @@
 
 ![GitHub Licence](https://img.shields.io/github/license/viniciussironi/page-store-apple?link=https%3A%2F%2Fgithub.com%2Fviniciussironi%2Fpage-store-apple%2Fblob%2Fmain%2FLICENSE)
 
-## Sobre o projeto
+# Sobre o projeto
 
 Este projeto foi criado para colocar em prática meu conhecimentos em HTML e CSS. 
 Objetivo do projeto foi recriar a homepage da [loja da Apple](https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid__pgrid_1288627665724090_pntwk_o_pchan__pexid_%7Bextensionid%7D_&cid=aos-br-kwgo-brand--slid---product-), usando o Angular
@@ -19,17 +19,16 @@ Objetivo do projeto foi recriar a homepage da [loja da Apple](https://www.apple.
 
 ![5](https://github.com/viniciussironi/page-store-apple/assets/115051529/abd72f46-d599-4dfc-ab92-a61ccf3e080c)
 
-## Recursos usados
+# Recursos usados
 
 - Angular
 - HTML
 - CSS
 - Google Icons
 
-## Autor
-
+# Autor
 Vinicius Luan Amancio Sironi
 
-Linkedin: https://www.linkedin.com/in/vinicius-sironi/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinicius-sironi) 
 
-e-mail: viniciussironi@gmail.com
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)]()  viniciussironi@gmail.com
